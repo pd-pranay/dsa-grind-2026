@@ -12,7 +12,7 @@ public class p09_SquaresfSortedArray {
     }
 
     // bigger absolute value goes to the back of the answer
-    // left is negative side, right is positive side, so fill from the end
+    // left is negative side, right is positive side, so fill the new array from the end
     private static class solution {
         public int[] sortedSquares(int[] nums) {
             int[] arr = new int[nums.length];
